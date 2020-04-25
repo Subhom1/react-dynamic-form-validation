@@ -1,0 +1,80 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(20, 151, 27);
+}
+h2 {
+  font-weight: 400;
+}
+h4 {
+  font-weight: 400;
+}
+
+.card-body {
+  width: 90%;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 30px auto;
+  box-shadow: 0px 0px 5px 5px #dcdcdc;
+}
+select.custom-select,
+input.form-control {
+  border: 1px solid #00000040;
+}
+.form-group {
+  margin-top: 15px;
+}
+button._submit {
+  width: 20%;
+  margin: 0 auto;
+  display: block;
+}
+.invalid-feedbackCustom {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #e74c3c;
+  display: block;
+}
+.form-control.is-invalidCustom {
+  border-color: #e74c3c;
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23E74C3C' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23E74C3C' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.small-card {
+  background-color: #eaeaea;
+  display: flex;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  .input-wrapper {
+    display: flex;
+    input.form-control.small-input {
+      font-size: 12px;
+    }
+  }
+  .icon-wrapper {
+    align-self: center;
+    margin-left: 10px;
+  }
+}
+.btn.btn-secondary.add_manager {
+  width: 52%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  // font-size: 15px;
+}
+.form-group.input-block {
+  margin-left: 8px;
+}
